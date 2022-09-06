@@ -67,6 +67,7 @@ export const theme = createTheme({
       fontSize: "16px",
       lineHeight: "28px",
       letterSpacing: "0.01em",
+      color: "#E0E0E0",
     },
   },
 });
