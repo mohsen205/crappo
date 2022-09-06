@@ -3,6 +3,7 @@ import { ThemeProvider } from "@mui/material";
 import { theme } from "./customTheme";
 import About from "./components/about/About";
 import Cryptocurrencies from "./components/cryptocurrencies/Cryptocurrencies";
+import Features from "./components/features/Features";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <About />
       <Cryptocurrencies />
+      <Features />
     </ThemeProvider>
   );
 }

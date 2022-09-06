@@ -7,6 +7,7 @@ const Cryptocurrencies = () => {
     <Box
       sx={{
         color: "common.white",
+        marginBottom: "100px",
       }}
     >
       <Revenue />
