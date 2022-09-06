@@ -60,5 +60,13 @@ export const theme = createTheme({
       textTransform: "uppercase",
       color: "#C4C4C4",
     },
+    body1: {
+      fontFamily: "Rubik",
+      fontStyle: "normal",
+      fontWeight: 400,
+      fontSize: "16px",
+      lineHeight: "28px",
+      letterSpacing: "0.01em",
+    },
   },
 });

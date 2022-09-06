@@ -4,18 +4,8 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
 import Divider from "@mui/material/Divider";
-import Button from "@mui/material/Button";
-import { styled } from "@mui/material";
+import { StyledButton } from "../utils/Button";
 
-const StyledButton = styled(Button)(({ theme }) => ({
-  backgroundColor: theme.palette.accent.main,
-  textTransform: "capitalize",
-  borderRadius: "32px",
-  padding: "10px 23px 10px 23px",
-  "&:hover": {
-    backgroundColor: theme.palette.accent.main,
-  },
-}));
 const Navbar = () => {
   return (
     <AppBar position="static" elevation={0}>
