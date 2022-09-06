@@ -1,6 +1,7 @@
 import Box from "@mui/material/Box";
 import Revenue from "./Revenue";
 import Typography from "@mui/material/Typography";
+import CryptocurrenciesCards from "./CryptocurrenciesCards";
 const Cryptocurrencies = () => {
   return (
     <Box
@@ -21,6 +22,7 @@ const Cryptocurrencies = () => {
           Trade securely and market the high growth cryptocurrencies.
         </Typography>
       </Box>
+      <CryptocurrenciesCards />
     </Box>
   );
 };
