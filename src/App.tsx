@@ -4,7 +4,8 @@ import { theme } from "./customTheme";
 import About from "./components/about/About";
 import Cryptocurrencies from "./components/cryptocurrencies/Cryptocurrencies";
 import Features from "./components/features/Features";
-
+import StartMining from "./components/StartMining/StartMining";
+import Footer from "./components/footer/Index";
 function App() {
   return (
     <ThemeProvider theme={theme}>
@@ -12,6 +13,8 @@ function App() {
       <About />
       <Cryptocurrencies />
       <Features />
+      <StartMining />
+      <Footer />
     </ThemeProvider>
   );
 }

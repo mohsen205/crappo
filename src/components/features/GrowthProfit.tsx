@@ -6,7 +6,7 @@ import { StyledButton } from "../utils/Button";
 
 const GrowthProfit = () => {
   return (
-    <Container sx={{ marginBottom: "200px" }}>
+    <Container sx={{ marginBottom: "100px" }}>
       <Stack direction="row" justifyContent="space-between">
         <Box
           sx={{
