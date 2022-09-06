@@ -3,8 +3,8 @@ import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import { styled, Typography } from "@mui/material";
 import { StyledButton } from "../utils/Button";
-// import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import ArrowCircleRight from "../utils/svg/ArrowCircleRight.svg";
+
 const StyledBox = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.common.white,
   padding: "4px 16px",
@@ -15,6 +15,7 @@ const StyledBox = styled(Box)(({ theme }) => ({
   display: "flex",
   alignItems: "center",
 }));
+
 const StyledTypography = styled(Typography)(({ theme }) => ({
   fontFamily: "Rubik",
   fontStyle: "normal",
